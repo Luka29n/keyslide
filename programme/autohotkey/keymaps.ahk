@@ -1,7 +1,32 @@
-﻿
+﻿;:COMPort := Object()
+;COMPortName := Object()
+;Num:=0
+;Loop, HKLM, HARDWARE\DEVICEMAP\SERIALCOMM\
+;{
+    ;RegRead, OutputVar
+    ;COMPort%Num%:=OutputVar
+    ;COM_result:=COMPort%Num%
+    ;Num+=1
+    ;Loop, HKLM, SYSTEM\CurrentControlSet\Enum, 1, 1
+    ;{
+        ;if (A_LoopRegName = "FriendlyName")
+        ;{
+           ; RegRead, Outputvar
+          ;  IfInString,Outputvar,%COM_result%
+         ;   {
+        ;        COMPortName[COM_result]:=Outputvar
+       ;         if (InStr(Outputvar, "Arduino Leonardo"))
+      ;          {
+     ;               ExitApp
+    ;            }
+   ;         }
+  ;      }
+ ;   }
+;}
+;MsgBox, Arduino Leonardo not found. Exiting script.
+;ExitApp
 
-
-SoundGet, master_mute, , mute, 13 ; afficher l'icone en fonction de l'état du microphone
+SoundGet, master_mute, , mute, 14 ; afficher l'icone en fonction de l'état du microphone
 if (master_mute = "Off")
     Menu, Tray, Icon, C:\Users\lukap\Downloads\icons8-microphone-50-modified.png
 else
@@ -60,22 +85,13 @@ DllCall("LockWorkStation")
 return
 
 
-F22::
-    F22State := Mod(F22State + 1, 2)
-    if (F22State = 1) {
-        Send ^a
-        Send ^c
-        Send {Esc}
-    } else {
-        Send ^v
-        Send {Enter}
-        F22State := 0
-    }
+f22::
 return
 
+
 F23::  ; mute le micro
-SoundSet, +1, MASTER, mute,13 ;13 was my mic id number use the code below the dotted line to find your mic id. you need to replace all 12's  <---------IMPORTANT
-SoundGet, master_mute, , mute, 13
+SoundSet, +1, MASTER, mute,14 ;13 was my mic id number use the code below the dotted line to find your mic id. you need to replace all 12's  <---------IMPORTANT
+SoundGet, master_mute, , mute, 14
 
 if (master_mute = "Off"){
     Menu, Tray, Icon, C:\Users\lukap\Downloads\icons8-microphone-50-modified.png
