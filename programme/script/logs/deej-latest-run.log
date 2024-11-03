@@ -1,0 +1,75 @@
+2024-11-03 11:15:11.565	info	main                       	Version info	{"gitCommit": "7567f83", "versionTag": "v0.9.10", "buildType": "release"}
+2024-11-03 11:15:11.584	warn	deej.config                	Config file not found	{"path": "config.yaml"}
+2024-11-03 11:15:11.584	info	deej.notifier              	Sending toast notification	{"title": "Can't find configuration!", "message": "config.yaml must be in the same directory as deej. Please re-launch"}
+2024-11-03 11:15:11.905	error	deej                       	Failed to load config during initialization	{"error": "config file doesn't exist: config.yaml"}
+github.com/omriharel/deej.(*Deej).Initialize
+	D:/Projects/go/src/github.com/omriharel/deej/deej.go:91
+main.main
+	D:/Projects/go/src/github.com/omriharel/deej/cmd/main.go:63
+runtime.main
+	c:/go/src/runtime/proc.go:203
+2024-11-03 11:15:11.905	fatal	main                       	Failed to initialize deej	{"error": "load config during init: config file doesn't exist: config.yaml"}
+main.main
+	D:/Projects/go/src/github.com/omriharel/deej/cmd/main.go:64
+runtime.main
+	c:/go/src/runtime/proc.go:203
+2024-11-03 11:15:48.254	info	main                       	Version info	{"gitCommit": "7567f83", "versionTag": "v0.9.10", "buildType": "release"}
+2024-11-03 11:15:48.271	warn	deej.config                	Config file not found	{"path": "config.yaml"}
+2024-11-03 11:15:48.271	info	deej.notifier              	Sending toast notification	{"title": "Can't find configuration!", "message": "config.yaml must be in the same directory as deej. Please re-launch"}
+2024-11-03 11:15:48.529	error	deej                       	Failed to load config during initialization	{"error": "config file doesn't exist: config.yaml"}
+github.com/omriharel/deej.(*Deej).Initialize
+	D:/Projects/go/src/github.com/omriharel/deej/deej.go:91
+main.main
+	D:/Projects/go/src/github.com/omriharel/deej/cmd/main.go:63
+runtime.main
+	c:/go/src/runtime/proc.go:203
+2024-11-03 11:15:48.529	fatal	main                       	Failed to initialize deej	{"error": "load config during init: config file doesn't exist: config.yaml"}
+main.main
+	D:/Projects/go/src/github.com/omriharel/deej/cmd/main.go:64
+runtime.main
+	c:/go/src/runtime/proc.go:203
+2024-11-03 11:16:53.278	info	main                       	Version info	{"gitCommit": "7567f83", "versionTag": "v0.9.10", "buildType": "release"}
+2024-11-03 11:16:53.295	warn	deej.config                	Config file not found	{"path": "config.yaml"}
+2024-11-03 11:16:53.295	info	deej.notifier              	Sending toast notification	{"title": "Can't find configuration!", "message": "config.yaml must be in the same directory as deej. Please re-launch"}
+2024-11-03 11:16:53.536	error	deej                       	Failed to load config during initialization	{"error": "config file doesn't exist: config.yaml"}
+github.com/omriharel/deej.(*Deej).Initialize
+	D:/Projects/go/src/github.com/omriharel/deej/deej.go:91
+main.main
+	D:/Projects/go/src/github.com/omriharel/deej/cmd/main.go:63
+runtime.main
+	c:/go/src/runtime/proc.go:203
+2024-11-03 11:16:53.536	fatal	main                       	Failed to initialize deej	{"error": "load config during init: config file doesn't exist: config.yaml"}
+main.main
+	D:/Projects/go/src/github.com/omriharel/deej/cmd/main.go:64
+runtime.main
+	c:/go/src/runtime/proc.go:203
+2024-11-03 11:19:36.064	info	main                       	Version info	{"gitCommit": "7567f83", "versionTag": "v0.9.10", "buildType": "release"}
+2024-11-03 11:19:36.081	warn	deej.config                	Config file not found	{"path": "config.yaml"}
+2024-11-03 11:19:36.082	info	deej.notifier              	Sending toast notification	{"title": "Can't find configuration!", "message": "config.yaml must be in the same directory as deej. Please re-launch"}
+2024-11-03 11:19:36.321	error	deej                       	Failed to load config during initialization	{"error": "config file doesn't exist: config.yaml"}
+github.com/omriharel/deej.(*Deej).Initialize
+	D:/Projects/go/src/github.com/omriharel/deej/deej.go:91
+main.main
+	D:/Projects/go/src/github.com/omriharel/deej/cmd/main.go:63
+runtime.main
+	c:/go/src/runtime/proc.go:203
+2024-11-03 11:19:36.321	fatal	main                       	Failed to initialize deej	{"error": "load config during init: config file doesn't exist: config.yaml"}
+main.main
+	D:/Projects/go/src/github.com/omriharel/deej/cmd/main.go:64
+runtime.main
+	c:/go/src/runtime/proc.go:203
+2024-11-03 11:22:25.568	info	main                       	Version info	{"gitCommit": "7567f83", "versionTag": "v0.9.10", "buildType": "release"}
+2024-11-03 11:22:25.584	warn	deej.config                	Config file not found	{"path": "config.yaml"}
+2024-11-03 11:22:25.584	info	deej.notifier              	Sending toast notification	{"title": "Can't find configuration!", "message": "config.yaml must be in the same directory as deej. Please re-launch"}
+2024-11-03 11:22:25.840	error	deej                       	Failed to load config during initialization	{"error": "config file doesn't exist: config.yaml"}
+github.com/omriharel/deej.(*Deej).Initialize
+	D:/Projects/go/src/github.com/omriharel/deej/deej.go:91
+main.main
+	D:/Projects/go/src/github.com/omriharel/deej/cmd/main.go:63
+runtime.main
+	c:/go/src/runtime/proc.go:203
+2024-11-03 11:22:25.840	fatal	main                       	Failed to initialize deej	{"error": "load config during init: config file doesn't exist: config.yaml"}
+main.main
+	D:/Projects/go/src/github.com/omriharel/deej/cmd/main.go:64
+runtime.main
+	c:/go/src/runtime/proc.go:203
